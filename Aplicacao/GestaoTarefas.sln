@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1169
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoTarefas", "GestaoTarefas\GestaoTarefas.csproj", "{714631FF-8103-41E3-AC1C-3AC6995E99AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoTarefasTests", "GestaoTarefasTests\GestaoTarefasTests.csproj", "{BF06B673-90F8-412A-9F50-A95ED0E07C0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{714631FF-8103-41E3-AC1C-3AC6995E99AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714631FF-8103-41E3-AC1C-3AC6995E99AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714631FF-8103-41E3-AC1C-3AC6995E99AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF06B673-90F8-412A-9F50-A95ED0E07C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF06B673-90F8-412A-9F50-A95ED0E07C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF06B673-90F8-412A-9F50-A95ED0E07C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF06B673-90F8-412A-9F50-A95ED0E07C0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
