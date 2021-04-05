@@ -16,3 +16,22 @@ D:\Users\felipe.atene\Desktop\Projeto Teste\projeto1\GestaoTarefas\GestaoTarefas
 D:\Users\felipe.atene\Desktop\Projeto Teste\projeto1\GestaoTarefas\GestaoTarefas\obj\Debug\GestaoTarefas.exe
 D:\Users\felipe.atene\Desktop\Projeto Teste\projeto1\GestaoTarefas\GestaoTarefas\obj\Debug\GestaoTarefas.pdb
 D:\Users\felipe.atene\Desktop\Projeto Teste\projeto1\GestaoTarefas\GestaoTarefas\obj\Debug\GestaoTarefas.csprojAssemblyReference.cache
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\bin\Debug\GestaoTarefas.exe
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\bin\Debug\GestaoTarefas.pdb
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.csprojAssemblyReference.cache
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\MainWindow.g.cs
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\View\frmCadastro.g.cs
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\View\frmDashboard.g.cs
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\App.g.cs
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas_MarkupCompile.cache
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas_MarkupCompile.lref
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\MainWindow.baml
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\View\frmCadastro.baml
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\View\frmDashboard.baml
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.g.resources
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.Properties.Resources.resources
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.csproj.GenerateResource.cache
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.exe
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GestaoTarefas.pdb
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\bin\Debug\GestaoTarefas.exe.config
+G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\obj\Debug\GeneratedInternalTypeHelper.g.cs

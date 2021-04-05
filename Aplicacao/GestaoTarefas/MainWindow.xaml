@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid x:Name="grdLogin">
+        <Image x:Name="imgLogo" Height="153.6" Margin="31.5,10,30.9,0" VerticalAlignment="Top" Source="G:\Usuários\Felipe Atene\Área de Trabalho\Projetos Teste\GestaoTarefa\Aplicacao\GestaoTarefas\View\imagens\logo.jpg"/>
         <Label x:Name="lblUsuario" Content="Usuario" HorizontalAlignment="Left" Margin="10.2,163.6,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="23" Margin="10,189.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273.6"/>
         <Label x:Name="lblSenha" Content="Senha" HorizontalAlignment="Left" Margin="10.2,222.8,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtSenha" HorizontalAlignment="Left" Height="23" Margin="10,248.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273.6"/>
-        <Button x:Name="btnEntrar" Content="Entrar" HorizontalAlignment="Left" Margin="10,285,0,0" VerticalAlignment="Top" Width="273.6" Height="36" Click="BtnEntrar_Click"/>
-        <Button x:Name="btnNovoUsuario" Content="Novo Usuário" HorizontalAlignment="Left" Margin="142,326,0,0" VerticalAlignment="Top" Width="141.6" Height="32.8" Click="BtnNovoUsuario_Click"/>
+        <PasswordBox x:Name="txtSenha" HorizontalAlignment="Left" Margin="10.2,248.4,0,0" VerticalAlignment="Top" Width="273.4" Height="23"/>
+        <Button x:Name="btnEntrar" Content="Entrar"  Background="#FFE2ECFB"  HorizontalAlignment="Left" Margin="10,285,0,0" VerticalAlignment="Top" Width="273.6" Height="36" Click="BtnEntrar_Click"/>
+        <Button x:Name="btnNovoUsuario" Content="Novo Usuário" Background="#FFE4F0E4"  HorizontalAlignment="Left" Margin="142,326,0,0" VerticalAlignment="Top" Width="141.6" Height="32.8" Click="BtnNovoUsuario_Click"/>
+        <Rectangle x:Name="rtMensagem" Fill="#FFE89A96" HorizontalAlignment="Left" Height="45" Margin="10,366,0,0" Stroke="Black" VerticalAlignment="Top" Width="273.6" StrokeThickness="0" Visibility="Hidden"/>
+        <Button x:Name="btnFecharMensagem" Content="X" HorizontalAlignment="Left" Margin="262.725,366,0,0" VerticalAlignment="Top" Width="20.875" Background="#FFE89A96" BorderThickness="0" Height="18" FontWeight="Bold" FontFamily="Segoe Script" ClipToBounds="True" SnapsToDevicePixels="True" Click="btnFecharMensagem_Click" Visibility="Hidden"/>
+        <TextBlock x:Name="txtMensagemErro" HorizontalAlignment="Left" Margin="16.5,381.238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246.6" Visibility="Hidden"/>
+
     </Grid>
 </Window>

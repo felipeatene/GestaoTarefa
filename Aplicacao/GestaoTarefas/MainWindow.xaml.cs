@@ -1,4 +1,6 @@
-﻿using GestaoTarefas.View;
+﻿using GestaoTarefas.Business;
+using GestaoTarefas.Model;
+using GestaoTarefas.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,26 +22,56 @@ namespace GestaoTarefas
     /// </summary>
     public partial class MainWindow : Window
     {
+        Negocio servico; // Camada de negócio.
+
         public MainWindow()
         {
             InitializeComponent();
+            servico = new Negocio();
         }
 
         private void BtnNovoUsuario_Click(object sender, RoutedEventArgs e)
         {
-            frmCadastro telaCadastro = new frmCadastro();
+            frmCadastro telaCadastro = new frmCadastro(servico);
             this.Visibility = System.Windows.Visibility.Collapsed;
             telaCadastro.ShowDialog();
             this.Visibility = System.Windows.Visibility.Visible;
+            txtSenha.Clear();
         }
 
         private void BtnEntrar_Click(object sender, RoutedEventArgs e)
         {
+            //Logar
+            if (servico.Logar(txtUsuario.Text, txtSenha.Password) != null)
+            {
+                frmDashboard telaDashboard = new frmDashboard(servico);
+                this.Visibility = System.Windows.Visibility.Collapsed;
+                telaDashboard.ShowDialog();
+                this.Visibility = System.Windows.Visibility.Visible;
+                txtSenha.Clear();
+            }
+            else
+            {
+                MostrarMensagem("Usuario não existe ou senha incorreta.");
+                txtSenha.Clear();
+            }
+        }
 
-            frmDashboard telaDashboard = new frmDashboard();
-            this.Visibility = System.Windows.Visibility.Collapsed;
-            telaDashboard.ShowDialog();
-            this.Visibility = System.Windows.Visibility.Visible;
+        private void MostrarMensagem(string mensagem)
+        {
+            txtMensagemErro.Text = mensagem;
+            rtMensagem.Visibility = Visibility.Visible;
+            txtMensagemErro.Visibility = Visibility.Visible;
+            btnFecharMensagem.Visibility = Visibility.Visible;
+
+        }
+
+        private void btnFecharMensagem_Click(object sender, RoutedEventArgs e)
+        {
+            txtMensagemErro.Text = "";
+            rtMensagem.Visibility = Visibility.Hidden;
+            txtMensagemErro.Visibility = Visibility.Hidden;
+            btnFecharMensagem.Visibility = Visibility.Hidden;
         }
     }
 }

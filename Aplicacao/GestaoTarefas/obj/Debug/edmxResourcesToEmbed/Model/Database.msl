@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="GestaoTarefasModelStoreContainer" CdmEntityContainer="GestaoTarefasEntities">
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="GestaoTarefasModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tarefa">
+      <EntityTypeMapping TypeName="GestaoTarefasModel.Tarefa">
+        <MappingFragment StoreEntitySet="Tarefa">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="GestaoTarefasModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="usuario1" ColumnName="usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK__Tarefa__Status_I__5629CD9C" TypeName="GestaoTarefasModel.FK__Tarefa__Status_I__5629CD9C" StoreEntitySet="Tarefa">
+      <EndProperty Name="Status">
+        <ScalarProperty Name="ID" ColumnName="Status_ID" />
+      </EndProperty>
+      <EndProperty Name="Tarefa">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="Status_ID" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK__Tarefa__Usuario___534D60F1" TypeName="GestaoTarefasModel.FK__Tarefa__Usuario___534D60F1" StoreEntitySet="Tarefa">
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="ID" ColumnName="Usuario_ID" />
+      </EndProperty>
+      <EndProperty Name="Tarefa">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="Usuario_ID" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
